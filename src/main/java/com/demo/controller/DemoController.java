@@ -4,8 +4,8 @@ import com.demo.controller.vo.ExpVO;
 import com.magician.web.core.annotation.Route;
 import com.magician.web.core.util.JSONUtil;
 import com.magician.web.execute.model.ResponseInputStream;
-import io.magician.tcp.http.constant.ReqMethod;
-import io.magician.tcp.http.model.MagicianFileUpLoad;
+import io.magician.tcp.codec.impl.http.constant.ReqMethod;
+import io.magician.tcp.codec.impl.http.model.MagicianFileUpLoad;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

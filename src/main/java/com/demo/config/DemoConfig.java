@@ -32,8 +32,8 @@ public class DemoConfig extends MartianConfig {
     @Override
     public FileUploadConfig fileUploadConfig() {
         FileUploadConfig fileUploadConfig = new FileUploadConfig();
-        fileUploadConfig.setFileSizeMax(fileUploadConfig.getFileSizeMax()*100);
-        fileUploadConfig.setSizeMax(fileUploadConfig.getSizeMax()*100);
+        fileUploadConfig.setFileSizeMax(1024*1024*1024);
+        fileUploadConfig.setSizeMax(1024*1024*1024);
         return fileUploadConfig;
     }
 

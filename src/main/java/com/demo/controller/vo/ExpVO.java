@@ -3,7 +3,7 @@ package com.demo.controller.vo;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.magician.web.core.annotation.Verification;
-import io.magician.tcp.http.model.MagicianFileUpLoad;
+import io.magician.tcp.codec.impl.http.model.MagicianFileUpLoad;
 
 import java.util.Date;
 import java.util.List;
