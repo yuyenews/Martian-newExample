@@ -11,11 +11,6 @@ public class DemoDbController {
 
     private DemoService demoService = new DemoService();
 
-    @Route("getDemoDTO")
-    public DemoDTO getDemoDTO() throws Exception {
-        return demoService.getDemoDTO();
-    }
-
     @Route("selectList")
     public List<DemoDTO> selectList() throws Exception {
         return demoService.selectList();
